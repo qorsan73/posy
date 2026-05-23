@@ -2,9 +2,9 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-API_ID = 19930339  
-API_HASH = "aa6d2e3fc1ea89f162316ca2a34301f7" 
-BOT_TOKEN = "7960430523:AAF0tATpaY6loDL56l0eO_Jy63VJ1t7LStY" 
+API_ID = 123456789   #الايدي من موقع my telegram 
+API_HASH = "اكتب الهاش اي دي حقك" #من موقع my teledram
+BOT_TOKEN = "اكتب التوكن حق البوت" 
 app = Client("restricted_downloader", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
 @app.on_message(filters.command("start"))
